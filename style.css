@@ -1,0 +1,134 @@
+/* Reset some default browser styles for consistency */
+body, h1, h2, h3, ul, ol, li, p, table, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the entire page contents */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    min-height: 100vh; /* Minimum viewport height for full page height */
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; /* Full width header */
+}
+
+/* Center the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Center the main content section */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center text within the section */
+}
+
+/* Style headings */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style lists */
+ul, ol {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+/* Style table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: center; /* Center table content horizontally */
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center; /* Center table cell content horizontally */
+}
+
+/* Style form */
+form {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: center; /* Center form content horizontally */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center; /* Center label text horizontally */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: center; /* Center input text horizontally */
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Center submit button horizontally */
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
